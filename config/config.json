@@ -1,0 +1,53 @@
+{
+    "development": {
+      "username": "magnetar",
+      "password": "m@gn3t@r50ck5",
+      "database": "guardianl2starkex",
+      "host": "localhost",
+      "dialect": "postgres",
+      "unused_txid": false,
+      "pool": {
+        "max": 15,
+        "min": 0,
+        "acquire": 60000,
+        "idle": 10000
+      }
+    },
+    "local": {
+      "username": "postgres",
+      "password": "test",
+      "database": "gns",
+      "host": "localhost",
+      "dialect": "postgres",
+      "unused_txid": true,
+      "logging": false,
+      "pool": {
+        "max": 10,
+        "min": 0,
+        "acquire": 60000,
+        "idle": 10000
+      }
+    },
+    "devtest": {
+      "username": "magnetar",
+      "password": "m@gn3t@r50ck5",
+      "database": "guardianl2starkex",
+      "host": "localhost",
+      "dialect": "postgres",
+      "unused_txid": true
+    },
+    "production": {
+      "username": "magnetar",
+      "password": "m@gn3t@r60ck6",
+      "database": "guardianl2starkex",
+      "host": "localhost",
+      "dialect": "postgres",
+      "unused_txid": false,
+      "pool": {
+        "max": 15,
+        "min": 0,
+        "acquire": 60000,
+        "idle": 10000
+      }
+    }
+  }
